@@ -82,7 +82,7 @@ function App(props) {
     setTasks([...tasks, newTask]);
   }
 
-  const tasksNoun = taskList.length !== 1 ? "tasks" : "task";
+  const tasksNoun = taskList.length !== 1 ? "Tasks" : "Task";
   const headingText = `${taskList.length} ${tasksNoun} remaining`;
 
   const listHeadingRef = useRef(null);
